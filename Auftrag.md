@@ -18,13 +18,15 @@ Auf das erste in der Schlange
 Elemente kennen sich nicht unbtereinander. Kennen nur Verwaltungs Operator und Verkäufer (Henry)
 - Ein Element kennt das Element das vor ihm steht (Vorgänger)
 - Jedes Element kennt seinen Inhalt (Hier: Bestellbestätigung)
-- Frage: Muss jedes Element auch seinen Nachfolger kennen???
+- Frage: Muss jedes Element auch seinen Nachfolger kennen??? damit die Schlange aufrücken kann.
+	-> Elemente müssen ihre Nachfolger nicht kennen (oder doch? ansonsten geht Information verloren)
 
 5. Welche Elemente müsste ein Verwaltungselement kennen?
 Alle die sich in der Schlange anstellen
 - Alle Elemente? Erstes und letztes auf jeden Fall.
 - Das Verwaltungobjekt kennt den INhalt der Elemente nicht.
 - Frage: Wird jemals die Position aller Elemente benutzt???
+	-> Nein! Nur das erste und das letzte Element
 
 6. Nach welchem Prinzip arbeitet die Datenstruktur? Wie nennt man eine solche Datenstruktur?
 - (Warte-) Schlange englisch: Queue
@@ -36,5 +38,8 @@ anstellen, vorrücken, Schlange verlassen, bestellung bearbeiten
 - das erste Element entfernen (entlassen)
 	-> aufrücken
 - Wissen, ob die Schlange leer ist.
-- Position??? (s.o.)
 - gib das erste Element
+
+Fragen:
+- Vorgänger/ Nachfolger was wird hier wirklich benötigt?
+- Was müssen Elemente eigentlich tun können? (vllt. Inhalt geben) 
