@@ -43,3 +43,6 @@ anstellen, vorrücken, Schlange verlassen, bestellung bearbeiten
 Fragen:
 - Vorgänger/ Nachfolger was wird hier wirklich benötigt?
 - Was müssen Elemente eigentlich tun können? (vllt. Inhalt geben) 
+
+- Vorgänger: Schleife und If um durchzulaufen wer alles einen Vorgänger hat bis ein Element keinen mehr hat
+Nachfolger: Zwischenspeicher des ersten Elements um danach den ersten Zeiger auf das neue erste Element zu setzen
