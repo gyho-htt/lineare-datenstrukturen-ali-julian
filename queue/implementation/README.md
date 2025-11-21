@@ -1,0 +1,1 @@
+Implementiert hier eure Datenstruktur
